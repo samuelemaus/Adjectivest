@@ -13,7 +13,6 @@ namespace AdjectivestTester
             
             AdjectiveInflector inflector = new AdjectiveInflector();
 
-            START:
             Console.WriteLine("Enter adjective: ");
             string adj = Console.ReadLine().Trim();
 
@@ -21,7 +20,6 @@ namespace AdjectivestTester
 
             Console.WriteLine(inflections);
             Console.WriteLine();
-            goto START;
 
         }
     }
