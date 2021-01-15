@@ -1,0 +1,13 @@
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.0\Resources\cmudict-0.7b.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.0\Adjectivest.deps.json
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.0\Adjectivest.dll
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.0\Adjectivest.pdb
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.0\Adjectivest.csprojAssemblyReference.cache
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.0\Adjectivest.AssemblyInfoInputs.cache
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.0\Adjectivest.AssemblyInfo.cs
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.0\Adjectivest.csproj.CoreCompileInputs.cache
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.0\Adjectivest.dll
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.0\Adjectivest.pdb
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.0\Resources\consonants.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.0\Resources\irregularAdjectives.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.0\Resources\vowels.txt

@@ -1,0 +1,7 @@
+bad,worse,worst
+far,farther,farthest
+good,better,best
+hind,hinder,hindmost
+ill,worse,worst
+less,lesser,least
+well,better,best

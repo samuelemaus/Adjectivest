@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AdjectivestTester/1.0.0": {
+        "dependencies": {
+          "Adjectivest": "1.0.0"
+        },
+        "runtime": {
+          "AdjectivestTester.dll": {}
+        }
+      },
+      "Adjectivest/1.0.0": {
+        "runtime": {
+          "Adjectivest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdjectivestTester/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Adjectivest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
