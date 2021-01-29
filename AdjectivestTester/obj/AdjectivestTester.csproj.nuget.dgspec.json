@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj": {
-                "projectPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj"
+              "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj": {
+                "projectPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj"
               }
             }
           }
@@ -60,12 +60,12 @@
         }
       }
     },
-    "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj": {
+    "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj",
-        "projectName": "Adjectivest",
-        "projectPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj",
+        "projectUniqueName": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj",
+        "projectName": "Adjectivest.Core",
+        "projectPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj",
         "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\obj\\",
         "projectStyle": "PackageReference",

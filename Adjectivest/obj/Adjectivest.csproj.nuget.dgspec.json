@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj": {}
+    "D:\\OneDrive-Loc\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj": {
+    "D:\\OneDrive-Loc\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj",
+        "projectUniqueName": "D:\\OneDrive-Loc\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj",
         "projectName": "Adjectivest",
-        "projectPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj",
-        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\obj\\",
+        "projectPath": "D:\\OneDrive-Loc\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj",
+        "packagesPath": "C:\\Users\\samem\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive-Loc\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\samem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -26,6 +31,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +43,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

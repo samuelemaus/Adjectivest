@@ -12,3 +12,16 @@ C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debu
 C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.1\Adjectivest.dll
 C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.1\Adjectivest.pdb
 C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Resources\dictLetterIndices.txt
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Resources\cmudict-0.7b.txt
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Resources\consonants.txt
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Resources\dictLetterIndices.txt
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Resources\irregularAdjectives.txt
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Resources\vowels.txt
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Adjectivest.deps.json
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Adjectivest.dll
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Debug\netstandard2.1\Adjectivest.pdb
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.1\Adjectivest.AssemblyInfoInputs.cache
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.1\Adjectivest.AssemblyInfo.cs
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.1\Adjectivest.csproj.CoreCompileInputs.cache
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.1\Adjectivest.dll
+D:\OneDrive-Loc\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Debug\netstandard2.1\Adjectivest.pdb

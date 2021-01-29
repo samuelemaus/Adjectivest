@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Adjectivest\Adjectivest.csproj" />
+    <ProjectReference Include="..\Adjectivest\Adjectivest.Core.csproj" />
   </ItemGroup>
 
 </Project>

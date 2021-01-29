@@ -11,6 +11,7 @@ namespace Adjectivest.Phonemes
             this.Symbol = symbol;
             this.PronunciationExample = example;
             this.Length = vowelLength;
+            this.PhonemeType = PhonemeType.Vowel;
         }
         public VowelLength Length { get; private set; }
 

@@ -6,25 +6,30 @@ using System.Linq;
 
 namespace Adjectivest.Phonemes
 {
-    public static class PhonemeCollection
+    public class PhonemeCollection : IDisposable
     {
+        public PhonemeCollection()
+        {
+            Initialize();
+        }
 
         private const string vowelsFileName = "vowels.txt";
         private const string consonantsFileName = "consonants.txt";
-        private const string resourcesFolder = "Resources";
+        private const string resourcesFolder = "AdjectivestResources";
         private const string phoneticVowels = "aeiou";
         private const char commaDelimiter = ',';
 
-        private static List<VowelPhoneme> Vowels = new List<VowelPhoneme>();
-        private static List<ConsonantPhoneme> ConsonantPhonemes = new List<ConsonantPhoneme>();
-        private static Dictionary<string, Phoneme> phonemeIndex = new Dictionary<string, Phoneme>();
+        private List<VowelPhoneme> Vowels = new List<VowelPhoneme>();
+        private List<ConsonantPhoneme> ConsonantPhonemes = new List<ConsonantPhoneme>();
+        private Dictionary<string, Phoneme> phonemeIndex = new Dictionary<string, Phoneme>();
+        private bool disposedValue;
 
-        public static Phoneme GetPhoneme(string symbol)
+        public Phoneme GetPhoneme(string symbol)
         {
             return phonemeIndex[symbol];
         }
 
-        public static void Initialize()
+        private void Initialize()
         {
             string[] vowels = File.ReadAllLines(Path.Combine(resourcesFolder, vowelsFileName));
 
@@ -71,8 +76,34 @@ namespace Adjectivest.Phonemes
 
         }
 
-    
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    // TODO: dispose managed state (managed objects)
+                }
 
+                Vowels = null;
+                ConsonantPhonemes = null;
+                phonemeIndex = null;
+                disposedValue = true;
+            }
+        }
 
+        // // TODO: override finalizer only if 'Dispose(bool disposing)' has code to free unmanaged resources
+        // ~PhonemeCollection()
+        // {
+        //     // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
+        //     Dispose(disposing: false);
+        // }
+
+        public void Dispose()
+        {
+            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
+            Dispose(disposing: true);
+            GC.SuppressFinalize(this);
+        }
     }
 }

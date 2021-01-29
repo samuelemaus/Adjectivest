@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Adjectivest/1.0.0": {
+      "Adjectivest.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/Adjectivest.dll": {}
+          "bin/placeholder/Adjectivest.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Adjectivest.dll": {}
+          "bin/placeholder/Adjectivest.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Adjectivest/1.0.0": {
+    "Adjectivest.Core/1.0.0": {
       "type": "project",
-      "path": "../Adjectivest/Adjectivest.csproj",
-      "msbuildProject": "../Adjectivest/Adjectivest.csproj"
+      "path": "../Adjectivest/Adjectivest.Core.csproj",
+      "msbuildProject": "../Adjectivest/Adjectivest.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Adjectivest >= 1.0.0"
+      "Adjectivest.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj": {
-              "projectPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj"
+            "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj": {
+              "projectPath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KqLbH/xF0otTts/t789c8f/q1M4UBf2Hpgx3t7YuOwcEB+0KhUgOrrzZsdvlQDb+G1qb277+w+XKhKg9XILqnw==",
+  "dgSpecHash": "Bbro/yA7l69iceZP75+FCniGK1851nIzZz4ukB3gvQa3d9wKEWdI2VCia/+5XYI/PmR9YmK9z75Oq0un/N1lvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.csproj",
+  "projectFilePath": "C:\\Users\\Sam\\OneDrive\\Documents\\Projects\\dotnet\\Adjectivest\\Adjectivest\\Adjectivest.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -5,19 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Resources\cmudict-0.7b.txt">
+    <None Update="AdjectivestResources\adjectivesList.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="AdjectivestResources\cmudict-0.7b.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\consonants.txt">
+    <None Update="AdjectivestResources\consonants.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\dictLetterIndices.txt">
+    <None Update="AdjectivestResources\dictLetterIndices.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\irregularAdjectives.txt">
+    <None Update="AdjectivestResources\irregularAdjectives.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\vowels.txt">
+    <None Update="AdjectivestResources\vowels.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

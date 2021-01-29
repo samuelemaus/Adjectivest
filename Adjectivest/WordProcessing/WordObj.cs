@@ -11,8 +11,8 @@ namespace Adjectivest.WordProcessor
         {
             Word = wordContent;
             Phonemes = phonemes;
-            SyllableCount = GetSyllableCount();
-            SetPhonemeTypes();
+            SyllableCount = GetSyllableCount(phonemes);
+            SetPhonemeTypes(phonemes);
         }
 
         public string Word { get; private set; }
@@ -21,15 +21,18 @@ namespace Adjectivest.WordProcessor
         public PhonemeType FirstSyllableType { get; private set; }
         public PhonemeType LastSyllableType { get; private set; }
 
-        private int GetSyllableCount()
+        private int GetSyllableCount(List<Phoneme> phonemes)
         {
             int value = 0;
 
-            foreach(var p in Phonemes)
+            if(phonemes != null)
             {
-                if(p is VowelPhoneme)
+                foreach (var p in phonemes)
                 {
-                    value++;
+                    if (p is VowelPhoneme)
+                    {
+                        value++;
+                    }
                 }
             }
 
@@ -63,10 +66,14 @@ namespace Adjectivest.WordProcessor
         }
 
 
-        private void SetPhonemeTypes()
+        private void SetPhonemeTypes(List<Phoneme> phonemes)
         {
-            FirstSyllableType = Phonemes[0].PhonemeType;
-            LastSyllableType = GetLastPhoneme().PhonemeType;
+            if(phonemes != null)
+            {
+                FirstSyllableType = Phonemes[0].PhonemeType;
+                var last = GetLastPhoneme();
+                LastSyllableType = GetLastPhoneme().PhonemeType;
+            }
         }
 
     }

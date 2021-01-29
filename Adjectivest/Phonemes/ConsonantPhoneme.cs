@@ -12,7 +12,7 @@ namespace Adjectivest.Phonemes
             Formation = formation;
             DoubleOnShortVowel = doubleOnShort;
             PronunciationExample = example;
-
+            this.PhonemeType = PhonemeType.Consonant;
         }
 
         public ConsonantFormation Formation { get; private set; }
