@@ -32,7 +32,6 @@ Add **'Adjectivest'** to your using statements in whatever class you're using Ad
 
 The only class you should need to utilize in a typical scenario is the **AdjectiveInflector** class, and you should only need one instance.
 
-The only parameter in the class's constructor is the 'loadDictionaryIntoMemory' bool.  This determines whether the CMU Dictionary is loaded into memory or accessed on-demand.  The difference may be obvious, but loading it into memory is faster on each individual request at the cost of, well, memory.  Accessing it on each request is a bit slower but more memory-efficient.
 
 `AdjectiveInflector inflector = new AdjectiveInflector(true);`
 
