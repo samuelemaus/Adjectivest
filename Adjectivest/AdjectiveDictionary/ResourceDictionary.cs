@@ -1,6 +1,7 @@
 ﻿using Adjectivest.Phonemes;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -42,7 +43,6 @@ namespace Adjectivest.Core.AdjectiveDictionary
             }
 
             phonemes = GetPhonemesFromLine(word, line);
-
             return phonemes;
 
         }

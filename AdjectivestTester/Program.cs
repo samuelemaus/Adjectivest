@@ -14,36 +14,21 @@ namespace AdjectivestTester
             START:
             Console.WriteLine("________________");
             Stopwatch stopWatch = new Stopwatch();
+            AdjectiveInflector inflector = new AdjectiveInflector(false);
 
-            float inMemElapsed = 0;
+            float totalElapsed = 0;
             for (int i = 0; i < Adjectives.Count; i++)
             {
                 stopWatch.Start();
-                RunTest(i, true);
+                RunTest(i, inflector);
                 stopWatch.Stop();
-                inMemElapsed += stopWatch.ElapsedMilliseconds;
-                Console.WriteLine(stopWatch.ElapsedMilliseconds + " ms elapsed." );
-                Console.WriteLine();
+                totalElapsed += stopWatch.ElapsedMilliseconds;
                 stopWatch.Reset();
             }
 
-            float inMemAvg = inMemElapsed / Adjectives.Count;
+            float avg = totalElapsed / Adjectives.Count;
 
-            //float fileReadElapsed = 0;
-            ////FileRead
-            //for (int i = 0; i < Adjectives.Count; i++)
-            //{
-            //    stopWatch.Start();
-            //    RunTest(i, false);
-            //    stopWatch.Stop();               
-            //    fileReadElapsed += stopWatch.ElapsedMilliseconds;
-            //    Console.WriteLine(stopWatch.ElapsedMilliseconds);
-            //    stopWatch.Reset();
-            //}
-
-            //float fileReadAvg = fileReadElapsed / Adjectives.Count;
-
-            Console.WriteLine("Total: " + inMemElapsed + " Avg:" + inMemAvg);
+            Console.WriteLine("Total: " + totalElapsed + " Avg:" + avg);
 
             Console.WriteLine("Press R to run again");
             Console.WriteLine("________________");
@@ -55,25 +40,18 @@ namespace AdjectivestTester
 
         }
 
-        static void RunTest(int i, bool loadIntoMemory)
-        {
-            Console.WriteLine("Before: " + GC.GetTotalMemory(true) / 1000 + " KB.");
-
-            AdjectiveInflector inflector = new AdjectiveInflector(loadIntoMemory);
-
+        static void RunTest(int i, AdjectiveInflector inflector)
+        { 
             string adj = Adjectives[i];
 
             string inflection = inflector.GetAdjectiveInflections(adj);
 
-            Console.WriteLine(inflection);
-            Console.WriteLine("During: " + GC.GetTotalMemory(false) / 1000 + " KB.");
-            //inflector.Dispose();
-            Console.WriteLine("After: " + GC.GetTotalMemory(true) / 1000 + " KB.");
+                        
         }
 
         static List<string> Adjectives = new List<string>()
         {
-            "sad","gigantic","elegant","red","pissed","unbelievable", "exciting", "crungus","woogle","round","fantastic","large","big","bad","good","zany","zesty", "aggravating"
+            "sad","gigantic","elegant","red","pissed","unbelievable", "exciting", "better", "coolest", "crungus","woogle","round","fantastic","large","big","bad","good","zany","zesty", "aggravating"
         };
     }
 }

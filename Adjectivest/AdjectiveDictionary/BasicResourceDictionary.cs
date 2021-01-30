@@ -48,7 +48,6 @@ namespace Adjectivest.Core.AdjectiveDictionary
 
         protected override string GetDictLine(string word, int startIndex, int maxIndex)
         {
-
             using (StreamReader streamReader = new StreamReader(dictionaryPath))
             {
                 for (int i = 0; i < maxIndex; i++)

@@ -3,7 +3,6 @@ using Adjectivest.Phonemes;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -12,20 +11,21 @@ namespace Adjectivest
     public class InMemoryResourceDictionary : ResourceDictionary
     {
 
-        private List<string> cmuDictLines = new List<string>();
-        private List<string> adjectivesLines = new List<string>();
+        private string[] cmuDictLines;
+        private string[] adjectivesLines;
 
         public InMemoryResourceDictionary()
         {
-            cmuDictLines = File.ReadAllLines(dictionaryPath).ToList();
+            cmuDictLines = File.ReadAllLines(dictionaryPath);
             dictionaryLetterIndices = GetDictionaryLetterIndices();
-            adjectivesLines = File.ReadAllLines(adjectivesListPath).ToList();
+            adjectivesLines = File.ReadAllLines(adjectivesListPath);
             adjectivesListLetterIndices = GetAdjectivesListLetterIndices();
             PhonemeCollection = new PhonemeCollection();
         }
 
         public override bool AdjectivesListContainsWord(string word)
         {
+
             char first = word[0];
             int startIndex = adjectivesListLetterIndices[first];
             int maxIndex = adjectivesListLetterIndices[(char)(first + 1)];
@@ -37,7 +37,6 @@ namespace Adjectivest
                     return true;
                 }
             }
-
             return false;
         }
 
@@ -46,7 +45,9 @@ namespace Adjectivest
             char upperFirst = Char.ToUpper(word[0]);
             int startIndex = dictionaryLetterIndices[upperFirst];
 
-            int maxIndex = (upperFirst != 'Z') ? dictionaryLetterIndices[(char)(upperFirst + 1)] : cmuDictLines.Count - 1;
+            int maxIndex = (upperFirst != 'Z') ? dictionaryLetterIndices[(char)(upperFirst + 1)] : cmuDictLines.Length - 1;
+            //int startIndex = 0;
+            //int maxIndex = cmuDictLines.Length - 1;
 
             return GetDictLine(word.ToUpper(), startIndex, maxIndex) != null;
         }

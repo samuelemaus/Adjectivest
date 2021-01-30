@@ -1,0 +1,15 @@
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\AdjectivestResources\cmudict-0.7b.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\AdjectivestResources\consonants.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\AdjectivestResources\dictLetterIndices.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\AdjectivestResources\irregularAdjectives.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\AdjectivestResources\vowels.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\AdjectivestResources\adjectivesList.txt
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\Adjectivest.Core.deps.json
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\Adjectivest.Core.dll
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\bin\Release\netstandard2.1\Adjectivest.Core.pdb
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Release\netstandard2.1\Adjectivest.Core.AssemblyInfoInputs.cache
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Release\netstandard2.1\Adjectivest.Core.AssemblyInfo.cs
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Release\netstandard2.1\Adjectivest.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Release\netstandard2.1\Adjectivest.Core.dll
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Release\netstandard2.1\Adjectivest.Core.pdb
+C:\Users\Sam\OneDrive\Documents\Projects\dotnet\Adjectivest\Adjectivest\obj\Release\netstandard2.1\Adjectivest.Core.csprojAssemblyReference.cache

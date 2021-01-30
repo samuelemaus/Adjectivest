@@ -5,6 +5,7 @@ using System.IO;
 using Adjectivest.WordProcessor;
 using Adjectivest.Phonemes;
 using Adjectivest.Core.AdjectiveDictionary;
+using System.Diagnostics;
 
 namespace Adjectivest
 {
@@ -27,7 +28,6 @@ namespace Adjectivest
 
         //exception rules
         private const string eSuffix = "e";
-
 
         public static string[] irregularAdjectives;
         private bool disposedValue;
@@ -467,6 +467,7 @@ namespace Adjectivest
 
             if(potentialForm != null && ResourceDictionary.DictContainsWord(potentialForm))
             {
+                
                 return potentialForm;
             }
 
